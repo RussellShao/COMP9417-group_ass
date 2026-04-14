@@ -1,0 +1,4 @@
+dataset,n_rows,n_features,task,model,train_time_s,infer_time_per_sample_ms,Accuracy,AUC-ROC
+bezdekIris,150,4,classification,xRFM,0.5921,2.402997,0.666667,
+bezdekIris,150,4,classification,RandomForest,0.4372,2.05013,0.9,0.988333
+bezdekIris,150,4,classification,XGBoost,0.1487,0.105866,0.933333,0.965

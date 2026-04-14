@@ -1,0 +1,4 @@
+dataset,n_rows,n_features,task,model,train_time_s,infer_time_per_sample_ms,RMSE
+abalone,4177,10,regression,xRFM,0.3955,0.021276,2.236893
+abalone,4177,10,regression,RandomForest,0.7499,0.102924,2.237512
+abalone,4177,10,regression,XGBoost,0.4501,0.003589,2.475648

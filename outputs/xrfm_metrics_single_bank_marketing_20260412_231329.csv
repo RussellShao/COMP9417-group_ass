@@ -1,0 +1,2 @@
+dataset_id,dataset_label,task,n_rows,n_features,preprocess_time_s,train_time_s,infer_time_per_sample_ms,Accuracy,primary_metric_name,primary_metric_value,AUC_ROC,total_dataset_time_s
+bank_marketing,Bank Marketing,classification,11162,51,0.1637,3.5015,0.04915,0.857591,Accuracy,0.857591,0.9188476853155291,4.0036

@@ -1,0 +1,12 @@
+{
+  "source": "openml:spambase:1",
+  "target_col": "class",
+  "task": "classification",
+  "seed": 42,
+  "test_size": 0.2,
+  "val_size": 0.2,
+  "has_categorical": false,
+  "xgboost_enabled": true,
+  "n_rows_after_dropna": 4601,
+  "n_features_after_preprocess": 57
+}

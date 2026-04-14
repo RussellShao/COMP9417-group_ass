@@ -1,0 +1,58 @@
+[
+  {
+    "id": "bank_marketing",
+    "label": "Bank Marketing",
+    "csv_path": "bank.csv",
+    "target": "deposit",
+    "task": "clf",
+    "cat_cols": [
+      "job",
+      "marital",
+      "education",
+      "default",
+      "housing",
+      "loan",
+      "contact",
+      "month",
+      "poutcome"
+    ]
+  },
+  {
+    "id": "rt_iot_2022",
+    "label": "RT-IoT 2022",
+    "csv_path": "RT_IOT2022.csv/RT_IOT2022.csv",
+    "target": "Attack_type",
+    "task": "clf",
+    "drop_cols": ["no"],
+    "cat_cols": [
+      "proto",
+      "service"
+    ]
+  },
+  {
+    "id": "dry_bean",
+    "label": "Dry Bean",
+    "csv_path": "DryBean/DryBean/Dry_Bean_Dataset.csv",
+    "target": "Class",
+    "task": "clf",
+    "cat_cols": []
+  },
+  {
+    "id": "parkinsons_telemonitoring",
+    "label": "Parkinsons Telemonitoring",
+    "csv_path": "Parkinsons-Telemonitoring-ucirvine.csv/Parkinsons-Telemonitoring-ucirvine.csv",
+    "target": "total_updrs",
+    "task": "reg",
+    "drop_cols": ["subject"],
+    "cat_cols": []
+  },
+  {
+    "id": "online_news_popularity",
+    "label": "Online News Popularity",
+    "csv_path": "OnlineNews/OnlineNews/OnlineNewsPopularity.csv",
+    "target": "shares",
+    "task": "reg",
+    "drop_cols": ["url"],
+    "cat_cols": []
+  }
+]

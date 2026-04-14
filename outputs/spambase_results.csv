@@ -1,0 +1,4 @@
+dataset,n_rows,n_features,task,model,train_time_s,infer_time_per_sample_ms,Accuracy,AUC-ROC
+spambase,4601,57,classification,xRFM,0.4515,0.022201,0.926167,0.97849
+spambase,4601,57,classification,RandomForest,0.5544,0.06998,0.944625,0.983311
+spambase,4601,57,classification,XGBoost,0.518,0.00449,0.948969,0.983338
