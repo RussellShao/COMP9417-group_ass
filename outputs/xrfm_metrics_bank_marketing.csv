@@ -1,3 +1,0 @@
-dataset_id,dataset,model,train_s,infer_ms_per_sample,Accuracy,AUC
-bank_marketing,Bank Marketing,xRFM_HPO,518.008,0.03367,0.865652,0.925721
-bank_marketing,Bank Marketing,xRFM_Default,1.125,0.006432,0.858039,0.918441
